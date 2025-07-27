@@ -20,7 +20,7 @@ echo "Shared folder verification will be done after reboot..."
 
 # Step 5: Set ZSH as default shell for current user
 echo "Setting ZSH as default shell..."
-chsh -s /usr/bin/zsh
+sudo chsh -s /usr/bin/zsh kali
 
 # Step 6-7: Create non-default user (non-interactive)
 echo "Creating user 'chris'..."
